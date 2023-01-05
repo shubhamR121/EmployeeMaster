@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  school: MyString
+  board_or_university: MyString
+  qualification: MyString
+
+two:
+  school: MyString
+  board_or_university: MyString
+  qualification: MyString
