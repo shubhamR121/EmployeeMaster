@@ -7,6 +7,5 @@ class Employee < ApplicationRecord
   accepts_nested_attributes_for :employee_educations, allow_destroy: true
   accepts_nested_attributes_for :work_experiences, allow_destroy: true
 
-  validates :email, presence: true
-  validates :contact, presence: true
+  validates :email, :name, :gender, :address, :country, :state, :city, :contact, presence: true
 end
